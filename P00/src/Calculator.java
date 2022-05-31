@@ -17,6 +17,9 @@ public class Calculator {
 		return a/b;
 	}
 
+	public int divideByZero(int a) {
+		return 0;
+	}
 	
 
 }//end of class

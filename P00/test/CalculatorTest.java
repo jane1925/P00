@@ -82,5 +82,20 @@ public class CalculatorTest {
 		assertEquals(expected, actual);
 		 
 	}//end of testDivide()
+	
+	
+	@Test
+	public void testDivideByZero() {
+		//fail("Not yet implemented");
+		int a =50;
+		
+		Calculator cal = new Calculator();
+		int actual = cal.divideByZero(a);
+		
+		int expected = 0;
+		assertEquals(expected, actual);
+		 
+	}//end of testDivide()
 
+	
 }//end of class
