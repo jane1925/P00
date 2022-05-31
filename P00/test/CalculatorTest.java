@@ -66,7 +66,7 @@ public class CalculatorTest {
 		int expected = 144;
 		assertEquals(expected, actual);
 		
-	}//end of testSubtract()
+	}//end of testMultiple()
 	
 	
 	@Test
@@ -80,7 +80,7 @@ public class CalculatorTest {
 		
 		int expected = 25;
 		assertEquals(expected, actual);
-		
-	}//end of testSubtract()
+		 
+	}//end of testDivide()
 
 }//end of class
